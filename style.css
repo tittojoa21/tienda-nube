@@ -1,5 +1,5 @@
 :root {
-  --primario: #2563eb;
+  --primario: #0050c3;
   --primario-oscuro: #1d4ed8;
   --secundario: #06b6d4;
   --texto: #1f2937;
@@ -40,6 +40,11 @@ a {
   color: inherit;
   text-decoration: none;
   transition: var(--transicion);
+}
+.logo {
+  width: 150px;
+  height: auto;
+  filter: brightness(0) invert(1);
 }
 
 button {
