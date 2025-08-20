@@ -93,6 +93,11 @@ button {
   background: var(--primario);
   color: var(--blanco);
   box-shadow: var(--sombra);
+  padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .boton--primario:hover {
@@ -102,7 +107,11 @@ button {
 .boton--encabezado {
   background: var(--blanco);
   color: var(--primario);
-  border-radius: var(--radio);
+  padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .boton--encabezado:hover {
